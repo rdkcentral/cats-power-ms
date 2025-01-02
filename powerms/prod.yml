@@ -1,0 +1,8 @@
+powerDevices:
+  - host: 10.138.18.79
+    port: 2180
+    maxPort: 8
+    deviceId: 3
+    type: digitalLogger
+    userName: changeme
+    password: changeme
