@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.cats</groupId>
 	<artifactId>power-ms</artifactId>
-	<version>24.10.2-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<packaging>jar</packaging>
 	<name>Power MS</name>
 	<description>Power Microservice</description>
