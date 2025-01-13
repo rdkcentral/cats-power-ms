@@ -39,9 +39,7 @@ Copy the `application.yml` file to the `/opt/data/powerms`.
 Specify the host and port for the power devices this microservice will service in the prod.yml file
 
     powerDevices:
-      - host: 192.168.100.21
-        port: 80
-      - host: 192.168.100.22
+      - host: 192.168.100.0
         port: 80
 
 Also provide environment variable `POWER_LOG` where specifies where log files are required.
@@ -51,15 +49,10 @@ Also provide environment variable `POWER_LOG` where specifies where log files ar
 Example prod.yml file for Synaccess hardware devices:
 
     powerDevices:
-        - host: 192.168.100.21
+        - host: 192.168.100.0
           port: 80
           maxPort : 2
           deviceId : 1
-          type : synaccess
-        - host: 192.168.100.22
-          port: 80
-          maxPort : 2
-          deviceId : 2
           type : synaccess
 
 
